@@ -1,0 +1,29 @@
+<!--Cut the fat, crodie-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website To-Dos~!</title>
+    <span>
+      <img src="assets/gifs/back2.gif" href="index.html" alt="Back to home">
+    </span>
+    <h1>Website To-Dos~!</h1>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <script src="index.js"></script>
+    <p>
+      <ul>
+        <li>
+          Home Page
+        </li>
+      </ul>
+    </p>
+  </body>
+  <footer>
+    <p>&copy;konjugate owns everything except for what she doesn't. 2024-2024</p>
+  </footer>
+</html>

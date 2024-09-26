@@ -1,0 +1,103 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a:link {
+    color: aqua;
+}
+
+a:visited, a:hover {
+    color: pink;
+}
+
+body {
+    background-image: url(assets/backgrounds/qch50017.gif);
+    color: black;
+    font-family: Verdana;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 150px;
+    background-color: #ff2bff;
+    color: black;
+    box-sizing: border-box;
+}
+
+#navbar {
+    background-color: #550080;
+    color: #ffffff;
+    margin: auto;
+    margin-top: 20px;
+    width: 800px;
+    border: 0, #5a1c94;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#page {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+#content {
+    max-width: 800px;
+    margin: auto;
+    justify-content: left;
+    background-color: white;
+    padding: 15px;
+}
+/*
+#bishounen {
+    width: 200px;
+    height: auto;
+    float: right;
+}*/
+
+#info {
+    background-color: #550080;
+    color: #ffffff;
+    padding: 10px 10px 10px 10px;
+}
+
+/*content should deninitely have it's own class
+so i don't have to reformat it everytime*/
+
+
+/*  
+  header, footer {
+    background-color: #5a1c94;
+    max-width: 700px;
+    padding: 3px;
+    text-align: center;
+}
+
+.table {
+    margin: 0 auto;
+}
+  
+ 
+
+.item {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: none;
+}
+
+*/
+
+/*background-image: url("vault/spaceyspace.gif");*/
